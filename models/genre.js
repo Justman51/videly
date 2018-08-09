@@ -25,5 +25,6 @@ const genreSchema = new mongoose.Schema({
 
   module.exports = {
       Genre,
-      validateGenre
+      validateGenre,
+      genreSchema  
   }
